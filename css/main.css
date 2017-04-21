@@ -386,12 +386,18 @@ textarea {
   margin-left: auto;
 }
 
+.back-arrow_anchor {
+  position: relative;
+  width: 1440px;
+  margin: auto;
+}
+
 .back-arrow {
     display: none;
-    width: 170px;
-    height: 66px;
+    width: 172px;
+    height: 60px;
     position: absolute;
-    top: 910px;
+    top: 868px;
     left: 636px;
     cursor: pointer;
     z-index: 6;

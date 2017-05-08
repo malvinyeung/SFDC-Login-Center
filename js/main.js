@@ -8,6 +8,9 @@ $(document).ready(function(){
       $("#sfdc-card").fadeIn("fast", function() {
         $("#sfdc-card").show();
       });
+      $("#marketing-card").fadeIn("fast", function() {
+        $("#marketing-card").show();
+      });
       $("#grey-background").fadeIn("fast", function() {
         $("#grey-background").show();
       });
@@ -35,6 +38,24 @@ $(document).ready(function(){
       $("#back-arrow").fadeIn("fast", function() {
         $("#back-arrow").show();
       });
+      $("#marketing-login-container").fadeOut("fast", function() {
+        $("#marketing-login-container").hide();
+      });
+  });
+
+  $("#marketing-card").click(function(){
+      $("#marketing-login-container").fadeIn("fast", function() {
+        $("#marketing-login-container").show();
+      });
+      $("#marketing-login").fadeIn("fast", function() {
+        $("#marketing-login").show();
+      });
+      $("#back-arrow").fadeIn("fast", function() {
+        $("#back-arrow").show();
+      });
+      $("#sfdc-login-container").fadeOut("fast", function() {
+        $("#sfdc-login-container").hide();
+      });
   });
 
   $("#close").click(function(){
@@ -42,6 +63,9 @@ $(document).ready(function(){
         $("#lightbox").hide();
       });
     $("#sfdc-card").fadeOut("fast", function() {
+        $("#sfdc-card").hide();
+      });
+     $("#marketing-card").fadeOut("fast", function() {
         $("#sfdc-card").hide();
       });
     $("#grey-background").fadeOut("fast", function() {
@@ -52,6 +76,9 @@ $(document).ready(function(){
       });
     $("#sfdc-login-container").fadeOut("fast", function() {
         $("#sfdc-login-container").hide();
+      });
+    $("#marketing-login-container").fadeOut("fast", function() {
+        $("#marketing-login-container").hide();
       });
       $("#back-arrow").fadeOut("fast", function() {
         $("#back-arrow").hide();

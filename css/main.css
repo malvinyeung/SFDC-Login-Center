@@ -325,16 +325,53 @@ textarea {
   margin-right: auto;
 }
 
-.sfdc-card {
+.marketing-card-container {
+  width: 1440px;
+  position: relative;
+}
+
+.marketing-card {
     display: none;
     width: 410px;
     height: 110px;
     position: absolute;
     top: 200px;
-    left: 78px;
+    left: 510px;
     cursor: pointer;
     z-index: 4;
 }
+
+.marketing-login-container {
+  display: none;
+  margin-top: 900px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: 5;
+}
+
+.marketing-login {
+  /*display: none;*/
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  z-index: 999;
+  transform: translate(-50%, 0);
+  top: -91px;
+}
+
+.marketing-login-background {
+  width: 100%;
+  background: #F4F6F9;
+  height: 1320px;
+  top: 900px;
+}
+
+/* SFDC LOGIN *************************************/
 
 .sfdc-login-container {
     display: none;
@@ -363,8 +400,18 @@ textarea {
   margin-right: 0;
   z-index: 999;
   transform: translate(-50%, 0);
-  top: -86px;
+  top: -91px;
+}
 
+.sfdc-card {
+    display: none;
+    width: 410px;
+    height: 110px;
+    position: absolute;
+    top: 200px;
+    left: 78px;
+    cursor: pointer;
+    z-index: 4;
 }
 
 .sfdc-card-container {
@@ -378,7 +425,7 @@ textarea {
   height: 100%;
   position: absolute;
   z-index: 2;
-  background: #777;
+  background:   #777;
   opacity: 1;
   right: 0;
   left: 0;
